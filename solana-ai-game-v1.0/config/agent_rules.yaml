@@ -1,0 +1,9 @@
+
+agents:
+  miner:
+    behavior:
+      - mine
+  tavernkeeper:
+    behavior:
+      - generate_greeting
+      - brew_item
