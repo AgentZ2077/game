@@ -1,9 +1,0 @@
-
-{
-  "version": "0.1.0",
-  "name": "zkVerifier",
-  "instructions": [
-    {"name": "storeHash", "accounts": ["record", "user", "systemProgram"], "args": [{"name": "agent", "type": "string"}, {"name": "data", "type": "string"}]},
-    {"name": "verifyHash", "accounts": ["record"], "args": [{"name": "data", "type": "string"}]}
-  ]
-}

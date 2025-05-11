@@ -1,9 +1,0 @@
-
-agents:
-  miner:
-    tools:
-      - mine
-  tavernkeeper:
-    tools:
-      - generate_greeting
-      - brew_item
