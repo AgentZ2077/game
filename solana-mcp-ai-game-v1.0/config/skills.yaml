@@ -1,0 +1,11 @@
+
+skills:
+  - name: generate_greeting
+    module: skills.greet.GenerateGreetingSkill
+    description: Generate a contextual greeting
+  - name: brew_item
+    module: skills.brew.BrewItemSkill
+    params:
+      item_name: "elven_wine"
+  - name: mine
+    module: skills.mine.MineSkill
